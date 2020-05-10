@@ -1,0 +1,22 @@
+{
+  "name": "generator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "browserify indexLodash.js > bundle.js && live-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GoraMichal/JSexamples.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GoraMichal/JSexamples/issues"
+  },
+  "homepage": "https://github.com/GoraMichal/JSexamples#readme",
+  "dependencies": {
+    "lodash": "^4.17.15"
+  }
+}
